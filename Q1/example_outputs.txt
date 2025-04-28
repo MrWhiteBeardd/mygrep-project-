@@ -1,0 +1,18 @@
+# Example outputs for testing
+
+# Command: ./mygrep.sh hello testfiles/testfile.txt
+Hello world
+HELLO AGAIN
+
+# Command: ./mygrep.sh -n hello testfiles/testfile.txt
+1:Hello world
+4:HELLO AGAIN
+
+# Command: ./mygrep.sh -vn hello testfiles/testfile.txt
+2:This is a test
+3:another test line
+5:Don't match this line
+6:Testing one two three
+
+# Command: ./mygrep.sh -v testfiles/testfile.txt
+Error: Missing search string.
