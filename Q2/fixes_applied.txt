@@ -1,0 +1,9 @@
+Updating DNS settings to use Google's public DNS (8.8.8.8):
+nameserver 8.8.8.8
+
+Allowing traffic on ports 80 and 443:
+Rule added
+Rule added
+Firewall reloaded
+
+Restarting the web service (Apache or Nginx):
