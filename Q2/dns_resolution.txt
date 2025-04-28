@@ -1,0 +1,35 @@
+System DNS Resolver (/etc/resolv.conf):
+nameserver 192.168.1.1
+
+Testing DNS resolution using system DNS:
+Server:  192.168.1.1
+Address: 192.168.1.1#53
+
+Non-authoritative answer:
+Name:    internal.example.com
+Address: 192.168.1.100
+
+Testing DNS resolution using Google's public DNS (8.8.8.8):
+Server:  8.8.8.8
+Address: 8.8.8.8#53
+
+Non-authoritative answer:
+Name:    internal.example.com
+Address: 192.168.1.100System DNS Resolver (/etc/resolv.conf):
+nameserver 192.168.1.1
+
+Testing DNS resolution using system DNS:
+Server:  192.168.1.1
+Address: 192.168.1.1#53
+
+Non-authoritative answer:
+Name:    internal.example.com
+Address: 192.168.1.100
+
+Testing DNS resolution using Google's public DNS (8.8.8.8):
+Server:  8.8.8.8
+Address: 8.8.8.8#53
+
+Non-authoritative answer:
+Name:    internal.example.com
+Address: 192.168.1.100
