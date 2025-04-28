@@ -1,0 +1,13 @@
+Resolved IP Address: 192.168.1.100
+
+Checking port 80 (HTTP):
+HTTP/1.1 200 OK
+...
+
+Checking port 443 (HTTPS):
+HTTP/1.1 200 OK
+...
+
+Checking if the service is listening locally on ports 80 and 443:
+tcp        0      0 0.0.0.0:80            0.0.0.0:*               LISTEN
+tcp        0      0 0.0.0.0:443           0.0.0.0:*               LISTEN
